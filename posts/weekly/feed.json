@@ -5,6 +5,73 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2024/week-1",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-1-january-2nd--january-8th\">Week 1 (January 2nd – January 8th)<a href=\"#week-1-january-2nd--january-8th\" class=\"hash-link\" aria-label=\"Direct link to Week 1 (January 2nd – January 8th)\" title=\"Direct link to Week 1 (January 2nd – January 8th)\">​</a></h2><ul><li>We have changed the behaviour of loading Packit configuration for <code>koji_build</code> and <code>bodhi_update</code> jobs.\nFor both of them, the behaviour is the same as for <code>pull_from_upstream</code> - the configuration is taken\nfrom the default branch of the dist-git repository (usually <code>rawhide</code>) and other branches are ignored.\n(<a href=\"https://github.com/packit/packit-service/pull/2295\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2295</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-1",
+            "title": "Week 1 in Packit",
+            "summary": "Week 1 (January 2nd – January 8th)",
+            "date_modified": "2024-01-08T00:00:00.000Z",
+            "author": {
+                "name": "nforro"
+            },
+            "tags": [
+                "2024-January",
+                "2024",
+                "January"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2023/week-52",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"end-of-the-year-in-packit\">End of the year in Packit<a href=\"#end-of-the-year-in-packit\" class=\"hash-link\" aria-label=\"Direct link to End of the year in Packit\" title=\"Direct link to End of the year in Packit\">​</a></h2><ul><li>We have hit some issues with the firewall rules on the new cluster hosting our production. We are waiting for the required fix that is done outside of our team which should be deployed around January 11th. We will keep you informed about the current status. At the moment we are aware of the issues related to the:<ul><li><code>pull-from-upstream</code> jobs that have sources hosted at infradead.org, sourceforge.net and gitlab.gnome.org</li><li>jobs running on the gitlab.gnome.org in general</li></ul></li><li>We have also fixed an issue that caused some Cockpit releases to fail, others might've been affected too, though there are no reports.</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2023/week-52",
+            "title": "End of the year in Packit",
+            "summary": "End of the year in Packit",
+            "date_modified": "2024-01-02T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2023-December",
+                "2023",
+                "December"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2023/week-50",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-50-december-12th--december-18th\">Week 50 (December 12th – December 18th)<a href=\"#week-50-december-12th--december-18th\" class=\"hash-link\" aria-label=\"Direct link to Week 50 (December 12th – December 18th)\" title=\"Direct link to Week 50 (December 12th – December 18th)\">​</a></h2><ul><li>We have fixed a bug preventing a release from being synced downstream if the changelog to be set is empty.\n(<a href=\"https://github.com/packit/packit/pull/2183\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2183</a>)</li><li>We have fixed a bug of not running Koji builds for Packit dist-git PRs with multiple commits if the last commit\nof the PR did not contain a spec file change.\n(<a href=\"https://github.com/packit/packit-service/pull/2275\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2275</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2023/week-50",
+            "title": "Week 50 in Packit",
+            "summary": "Week 50 (December 12th – December 18th)",
+            "date_modified": "2023-12-18T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2023-December",
+                "2023",
+                "December"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2023/week-49",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-49-december-5th--december-11th\">Week 49 (December 5th – December 11th)<a href=\"#week-49-december-5th--december-11th\" class=\"hash-link\" aria-label=\"Direct link to Week 49 (December 5th – December 11th)\" title=\"Direct link to Week 49 (December 5th – December 11th)\">​</a></h2><ul><li><p>We have introduced new configuration options <code>test_command.default_labels</code> and <code>test_command.default_identifier</code> that are used by default when running <code>/packit test</code> comment command without any arguments (instead of specifying them via <code>--labels</code>/<code>--identifier</code>). (<a href=\"https://github.com/packit/packit-service/pull/2270\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2270</a>)</p></li><li><p>We have fixed a bug that GithubRelease.url returned an API URL. (<a href=\"https://github.com/packit/ogr/pull/824\" target=\"_blank\" rel=\"noopener noreferrer\">ogr#824</a>)</p></li></ul>",
+            "url": "https://packit.dev/posts/weekly/2023/week-49",
+            "title": "Week 49 in Packit",
+            "summary": "Week 49 (December 5th – December 11th)",
+            "date_modified": "2023-12-11T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2023-December",
+                "2023",
+                "December"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2023/packit-workshop",
             "content_html": "<p>We, the packit team, are happy to invite you to our upcoming workshop about pulling upstream releases to Fedora using Packit.</p><p><strong>When: Wed, Jan 10, 9:30 AM - Wed, Jan 10, 12:30 PM (GMT+1)</strong></p><p><strong>Where: Online!</strong></p><p><strong>Who should attend:</strong> Anyone who maintains a package in Fedora or EPEL and would like to automate syncing the upstream releases for it. The automation is most suitable for simple packages with straightforward update processes (e.g. without patches, or need to build in side-tags). It works without access to the upstream repository.</p><p><strong>No package?</strong> It’s not an issue. The workshop can help you understand the Fedora release process and the services involved. During the workshop, you can help someone else automate their package or ask someone around if you can help with the maintenance (that’s usually very welcome!). You can also bring an orphaned package back to life!</p><p><strong>Can’t make it this time?</strong> You can also follow our <a href=\"https://packit.dev/docs/fedora-releases-guide\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a> and ask for help in case of any issue: #packit:fedora.im (Matrix).</p><p><strong>If you want to join us please fill <a href=\"https://forms.gle/WnEN3KXnhRS2cf1E7\" target=\"_blank\" rel=\"noopener noreferrer\">this form</a> or contact us on Matrix, and we will send you further details!</strong></p><p><strong>Looking forward to seeing you!</strong></p>",
             "url": "https://packit.dev/posts/weekly/2023/packit-workshop",

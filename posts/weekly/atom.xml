@@ -2,11 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://packit.dev/posts/weekly</id>
     <title>Packit Weekly</title>
-    <updated>2023-12-05T00:00:00.000Z</updated>
+    <updated>2024-01-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://packit.dev/posts/weekly"/>
     <subtitle>Weekly updates by Packit</subtitle>
     <icon>https://packit.dev/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Week 1 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-1</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-1"/>
+        <updated>2024-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 1 (January 2nd – January 8th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-1-january-2nd--january-8th">Week 1 (January 2nd – January 8th)<a href="#week-1-january-2nd--january-8th" class="hash-link" aria-label="Direct link to Week 1 (January 2nd – January 8th)" title="Direct link to Week 1 (January 2nd – January 8th)">​</a></h2><ul><li>We have changed the behaviour of loading Packit configuration for <code>koji_build</code> and <code>bodhi_update</code> jobs.
+For both of them, the behaviour is the same as for <code>pull_from_upstream</code> - the configuration is taken
+from the default branch of the dist-git repository (usually <code>rawhide</code>) and other branches are ignored.
+(<a href="https://github.com/packit/packit-service/pull/2295" target="_blank" rel="noopener noreferrer">packit-service#2295</a>)</li></ul>]]></content>
+        <author>
+            <name>nforro</name>
+        </author>
+        <category label="2024-January" term="2024-January"/>
+        <category label="2024" term="2024"/>
+        <category label="January" term="January"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[End of the year in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2023/week-52</id>
+        <link href="https://packit.dev/posts/weekly/2023/week-52"/>
+        <updated>2024-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[End of the year in Packit]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="end-of-the-year-in-packit">End of the year in Packit<a href="#end-of-the-year-in-packit" class="hash-link" aria-label="Direct link to End of the year in Packit" title="Direct link to End of the year in Packit">​</a></h2><ul><li>We have hit some issues with the firewall rules on the new cluster hosting our production. We are waiting for the required fix that is done outside of our team which should be deployed around January 11th. We will keep you informed about the current status. At the moment we are aware of the issues related to the:<ul><li><code>pull-from-upstream</code> jobs that have sources hosted at infradead.org, sourceforge.net and gitlab.gnome.org</li><li>jobs running on the gitlab.gnome.org in general</li></ul></li><li>We have also fixed an issue that caused some Cockpit releases to fail, others might've been affected too, though there are no reports.</li></ul>]]></content>
+        <author>
+            <name>Matej Focko</name>
+            <email>mfocko@redhat.com</email>
+            <uri>https://github.com/mfocko</uri>
+        </author>
+        <category label="2023-December" term="2023-December"/>
+        <category label="2023" term="2023"/>
+        <category label="December" term="December"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 50 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2023/week-50</id>
+        <link href="https://packit.dev/posts/weekly/2023/week-50"/>
+        <updated>2023-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 50 (December 12th – December 18th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-50-december-12th--december-18th">Week 50 (December 12th – December 18th)<a href="#week-50-december-12th--december-18th" class="hash-link" aria-label="Direct link to Week 50 (December 12th – December 18th)" title="Direct link to Week 50 (December 12th – December 18th)">​</a></h2><ul><li>We have fixed a bug preventing a release from being synced downstream if the changelog to be set is empty.
+(<a href="https://github.com/packit/packit/pull/2183" target="_blank" rel="noopener noreferrer">packit#2183</a>)</li><li>We have fixed a bug of not running Koji builds for Packit dist-git PRs with multiple commits if the last commit
+of the PR did not contain a spec file change.
+(<a href="https://github.com/packit/packit-service/pull/2275" target="_blank" rel="noopener noreferrer">packit-service#2275</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2023-December" term="2023-December"/>
+        <category label="2023" term="2023"/>
+        <category label="December" term="December"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 49 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2023/week-49</id>
+        <link href="https://packit.dev/posts/weekly/2023/week-49"/>
+        <updated>2023-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 49 (December 5th – December 11th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-49-december-5th--december-11th">Week 49 (December 5th – December 11th)<a href="#week-49-december-5th--december-11th" class="hash-link" aria-label="Direct link to Week 49 (December 5th – December 11th)" title="Direct link to Week 49 (December 5th – December 11th)">​</a></h2><ul><li><p>We have introduced new configuration options <code>test_command.default_labels</code> and <code>test_command.default_identifier</code> that are used by default when running <code>/packit test</code> comment command without any arguments (instead of specifying them via <code>--labels</code>/<code>--identifier</code>). (<a href="https://github.com/packit/packit-service/pull/2270" target="_blank" rel="noopener noreferrer">packit-service#2270</a>)</p></li><li><p>We have fixed a bug that GithubRelease.url returned an API URL. (<a href="https://github.com/packit/ogr/pull/824" target="_blank" rel="noopener noreferrer">ogr#824</a>)</p></li></ul>]]></content>
+        <author>
+            <name>Maja Massarini</name>
+            <email>mmassari@redhat.com</email>
+            <uri>https://github.com/majamassarini</uri>
+        </author>
+        <category label="2023-December" term="2023-December"/>
+        <category label="2023" term="2023"/>
+        <category label="December" term="December"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Packit workshop - Fedora Community Edition]]></title>
         <id>https://packit.dev/posts/weekly/2023/packit-workshop</id>
