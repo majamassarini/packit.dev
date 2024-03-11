@@ -2,11 +2,93 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://packit.dev/posts/weekly</id>
     <title>Packit Weekly</title>
-    <updated>2024-01-29T00:00:00.000Z</updated>
+    <updated>2024-03-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://packit.dev/posts/weekly"/>
     <subtitle>Weekly updates by Packit</subtitle>
     <icon>https://packit.dev/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Week 9 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-9</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-9"/>
+        <updated>2024-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 9 (February 27th – March 4th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-9-february-27th--march-4th">Week 9 (February 27th – March 4th)<a href="#week-9-february-27th--march-4th" class="hash-link" aria-label="Direct link to Week 9 (February 27th – March 4th)" title="Direct link to Week 9 (February 27th – March 4th)">​</a></h2><ul><li>We have fixed the bug about Packit overwriting the final state of the build in case the build start is being processed later than the end of the build. (<a href="https://github.com/packit/packit-service/pull/2358" target="_blank" rel="noopener noreferrer">packit-service#2358</a>)</li><li>We have improved the reporting of configuration errors in GitLab. (<a href="https://github.com/packit/packit-service/pull/2357" target="_blank" rel="noopener noreferrer">packit-service#2357</a>)</li><li><code>GitLabProject.get_file_content()</code> can now correctly handle file paths starting with <code>./</code>. (<a href="https://github.com/packit/ogr/pull/844" target="_blank" rel="noopener noreferrer">ogr#844</a>)</li></ul>]]></content>
+        <author>
+            <name>Matej Focko</name>
+            <email>mfocko@redhat.com</email>
+            <uri>https://github.com/mfocko</uri>
+        </author>
+        <category label="2024-February" term="2024-February"/>
+        <category label="2024" term="2024"/>
+        <category label="February" term="February"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 8 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-8</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-8"/>
+        <updated>2024-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 8 (February 20th – February 26th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-8-february-20th--february-26th">Week 8 (February 20th – February 26th)<a href="#week-8-february-20th--february-26th" class="hash-link" aria-label="Direct link to Week 8 (February 20th – February 26th)" title="Direct link to Week 8 (February 20th – February 26th)">​</a></h2><ul><li>Packit now checks the version to propose against the version in specfile and doesn't create downgrade PRs. (<a href="https://github.com/packit/packit/pull/2239" target="_blank" rel="noopener noreferrer">packit#2239</a>)</li></ul>]]></content>
+        <author>
+            <name>František Lachman</name>
+            <email>flachman@redhat.com</email>
+            <uri>https://github.com/lachmanfrantisek</uri>
+        </author>
+        <category label="2024-February" term="2024-February"/>
+        <category label="2024" term="2024"/>
+        <category label="February" term="February"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 7 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-7</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-7"/>
+        <updated>2024-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 7 (February 13th – February 19th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-7-february-13th--february-19th">Week 7 (February 13th – February 19th)<a href="#week-7-february-13th--february-19th" class="hash-link" aria-label="Direct link to Week 7 (February 13th – February 19th)" title="Direct link to Week 7 (February 13th – February 19th)">​</a></h2><ul><li>Packit now supports special value <code>ignore</code> for <code>trigger</code> in jobs configuration that indicates not to execute the job at all.
+This can be useful for templates or temporarily disabled jobs. (<a href="https://github.com/packit/packit/pull/2234" target="_blank" rel="noopener noreferrer">packit#2234</a>)</li><li>We have fixed the caching of data for the usage API endpoint. (<a href="https://github.com/packit/packit-service/pull/2350" target="_blank" rel="noopener noreferrer">packit-service#2350</a>)</li><li>We have fixed an issue that caused loading the same data multiple times on the dashboard within the project views. (<a href="https://github.com/packit/packit-service/pull/2349" target="_blank" rel="noopener noreferrer">packit-service#2349</a>)</li><li>We have also fixed crashing of dashboard's <code>Usage</code> page in case of unsuccessful queries. (<a href="https://github.com/packit/dashboard/pull/378" target="_blank" rel="noopener noreferrer">dashboard#378</a>)</li><li>We have fixed parsing of resolved Bugzillas in comments with multiple arguments specified,
+e.g. <code>/packit pull-from-upstream --with-pr-config --resolved-bugs rhbz#123</code>. (<a href="https://github.com/packit/packit-service/pull/2346" target="_blank" rel="noopener noreferrer">packit-service#2346</a>)</li></ul>]]></content>
+        <author>
+            <name>Laura Barcziová</name>
+            <email>lbarczio@redhat.com</email>
+            <uri>https://github.com/lbarcziova</uri>
+        </author>
+        <category label="2024-February" term="2024-February"/>
+        <category label="2024" term="2024"/>
+        <category label="February" term="February"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 6 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-6</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-6"/>
+        <updated>2024-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 6 (February 6th – February 12th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-6-february-6th--february-12th">Week 6 (February 6th – February 12th)<a href="#week-6-february-6th--february-12th" class="hash-link" aria-label="Direct link to Week 6 (February 6th – February 12th)" title="Direct link to Week 6 (February 6th – February 12th)">​</a></h2><ul><li>Packit now searches for bugzilla about new release created by Upstream Release Monitoring to reference each time it syncs the release downstream. (<a href="https://github.com/packit/packit/pull/2229" target="_blank" rel="noopener noreferrer">packit#2229</a>)</li><li>We have introduced new CLI command <code>packit dist-git init</code> that initializes Packit configuration for release automation in dist-git repository. (<a href="https://github.com/packit/packit/pull/2225" target="_blank" rel="noopener noreferrer">packit#2225</a>)</li><li>We have introduced new configuration options <code>require.label.present</code> and <code>require.label.absent</code>. By configuring these you can specify labels that need to be present or absent on a pull request for Packit to react on such PR. (<a href="https://github.com/packit/packit-service/pull/2333" target="_blank" rel="noopener noreferrer">packit-service#2333</a>)</li><li>Interface for labels was unified and <code>labels</code> property for PullRequest and Issue now return list of PRLabel and IssueLabel respectively. (<a href="https://github.com/packit/ogr/pull/839" target="_blank" rel="noopener noreferrer">ogr#839</a>)</li></ul>]]></content>
+        <author>
+            <name>Maja Massarini</name>
+            <email>mmassari@redhat.com</email>
+            <uri>https://github.com/majamassarini</uri>
+        </author>
+        <category label="2024-February" term="2024-February"/>
+        <category label="2024" term="2024"/>
+        <category label="February" term="February"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 5 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-5</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-5"/>
+        <updated>2024-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 5 (January 30th – February 5th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-5-january-30th--february-5th">Week 5 (January 30th – February 5th)<a href="#week-5-january-30th--february-5th" class="hash-link" aria-label="Direct link to Week 5 (January 30th – February 5th)" title="Direct link to Week 5 (January 30th – February 5th)">​</a></h2><ul><li><code>packit validate-config</code> now checks whether the Upstream Release Monitoring for the package is correctly configured if <code>pull_from_upstream</code> job is present in the configuration. (<a href="https://github.com/packit/packit/pull/2226" target="_blank" rel="noopener noreferrer">packit#2226</a>)</li><li>There is a new global configuration option <code>parse_time_macros</code> that allows to configure macros to be explicitly defined or undefined at spec file parse time. (<a href="https://github.com/packit/packit/pull/2222" target="_blank" rel="noopener noreferrer">packit#2222</a>)</li><li>We have added additional retries and improvements for task processing. (<a href="https://github.com/packit/packit-service/pull/2326" target="_blank" rel="noopener noreferrer">packit-service#2326</a>)</li></ul>]]></content>
+        <author>
+            <name>Maja Massarini</name>
+            <email>mmassari@redhat.com</email>
+            <uri>https://github.com/majamassarini</uri>
+        </author>
+        <category label="2024-February" term="2024-February"/>
+        <category label="2024" term="2024"/>
+        <category label="February" term="February"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Week 4 in Packit]]></title>
         <id>https://packit.dev/posts/weekly/2024/week-4</id>
@@ -793,7 +875,7 @@ instead of assuming it to be called <code>master</code>.
 (<a href="https://github.com/packit/packit/pull/1093" target="_blank" rel="noopener noreferrer">packit#1093</a>)</li><li>Hunor fixed bug <a href="https://github.com/packit/packit/pull/1089" target="_blank" rel="noopener noreferrer">packit#1089</a>
 which caused a wrong revision to be used for certain jobs in Packit Service.</li><li>Tomas improved the reliability of our sandboxing service.
 (<a href="https://github.com/packit/sandcastle/pull/95" target="_blank" rel="noopener noreferrer">sandcastle#95</a>)</li><li>Default branches in all <a href="https://github.com/packit" target="_blank" rel="noopener noreferrer">our repositories</a>
-have been renamed from <code>master</code> to <code>main</code>.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-5-february-1st---february-5th">Week 5 (February 1st - February 5th)<a href="#week-5-february-1st---february-5th" class="hash-link" aria-label="Direct link to Week 5 (February 1st - February 5th)" title="Direct link to Week 5 (February 1st - February 5th)">​</a></h2><ul><li>The service uses new Testing Farm (<a href="https://testing-farm.gitlab.io/api/" target="_blank" rel="noopener noreferrer">API</a>).
+have been renamed from <code>master</code> to <code>main</code>.</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-5-february-1st---february-5th">Week 5 (February 1st - February 5th)<a href="#week-5-february-1st---february-5th" class="hash-link" aria-label="Direct link to Week 5 (February 1st - February 5th)" title="Direct link to Week 5 (February 1st - February 5th)">​</a></h2><ul><li>The service uses new Testing Farm (<a href="https://api.testing-farm.io" target="_blank" rel="noopener noreferrer">API</a>).
 We are still working on better user experience and fixing bugs.
 (<a href="https://github.com/packit/packit-service/pull/875" target="_blank" rel="noopener noreferrer">packit-service#875</a>)</li><li>MatejF refactored permission system on pull requests and issues comments and
 renamed whitelist to allowlist. (<a href="https://github.com/packit/packit-service/pull/936" target="_blank" rel="noopener noreferrer">packit-service#936</a>)</li><li>The service now retries failed tasks.
