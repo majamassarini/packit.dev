@@ -4,10 +4,59 @@
         <title>Packit Weekly</title>
         <link>https://packit.dev/posts/weekly</link>
         <description>Weekly updates by Packit</description>
-        <lastBuildDate>Mon, 15 Apr 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Week 18 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-18</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-18</guid>
+            <pubDate>Mon, 06 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 18 (April 30th – May 6th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-18-april-30th--may-6th">Week 18 (April 30th – May 6th)<a href="#week-18-april-30th--may-6th" class="hash-link" aria-label="Direct link to Week 18 (April 30th – May 6th)" title="Direct link to Week 18 (April 30th – May 6th)">​</a></h2><ul><li>Packit will now upload to lookaside cache sources that are not specified by URLs
+and are present in the dist-git repo during release sync. Additionally, all the actions
+ran during syncing release will provide the <code>PACKIT_PROJECT_VERSION</code> environment variable.
+(<a href="https://github.com/packit/packit/pull/2297" target="_blank" rel="noopener noreferrer">packit#2297</a>)</li><li>We have introduced a new <code>status_name_template</code> option that allows you to configure
+status name for a Packit job. For further details have a look at our
+<a href="https://packit.dev/docs/configuration#status_name_template" target="_blank" rel="noopener noreferrer">docs</a>.
+This feature is still experimental and at the moment it is not possible
+to retry such jobs via GitHub Checks' re-run.
+(<a href="https://github.com/packit/packit-service/pull/2402" target="_blank" rel="noopener noreferrer">packit-service#2402</a>)</li></ul>]]></content:encoded>
+            <author>nforro@redhat.com (Nikola Forró)</author>
+            <category>2024-April</category>
+            <category>2024</category>
+            <category>April</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 17 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-17</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-17</guid>
+            <pubDate>Mon, 29 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 17 (April 23rd – April 29th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-17-april-23rd--april-29th">Week 17 (April 23rd – April 29th)<a href="#week-17-april-23rd--april-29th" class="hash-link" aria-label="Direct link to Week 17 (April 23rd – April 29th)" title="Direct link to Week 17 (April 23rd – April 29th)">​</a></h2><ul><li>We have fixed the syncing of ACLs during CentOS Stream release syncing.
+(<a href="https://github.com/packit/packit/pull/2298" target="_blank" rel="noopener noreferrer">packit#2298</a>)</li><li><code>koji_build</code> job has a new <code>sidetag_group</code> option that allows to perform a downstream Koji build in a sidetag.
+A new sidetag will be created for each configured <code>dist_git_branch</code> if it doesn't already exist.
+This represents the first step towards multi-package Bodhi updates. Stay tuned for further advancements!
+(<a href="https://github.com/packit/packit-service/pull/2409" target="_blank" rel="noopener noreferrer">packit-service#2409</a>)</li><li>We have fixed an issue when <code>copr_build</code> job status checks were sometimes wrongly updated with a misleading
+message after a SRPM build failure. (<a href="https://github.com/packit/packit-service/pull/2406" target="_blank" rel="noopener noreferrer">packit-service#2406</a>)</li></ul>]]></content:encoded>
+            <author>lbarczio@redhat.com (Laura Barcziová)</author>
+            <category>2024-April</category>
+            <category>2024</category>
+            <category>April</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 16 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-16</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-16</guid>
+            <pubDate>Mon, 22 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 16 (April 16th – April 22nd)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-16-april-16th--april-22nd">Week 16 (April 16th – April 22nd)<a href="#week-16-april-16th--april-22nd" class="hash-link" aria-label="Direct link to Week 16 (April 16th – April 22nd)" title="Direct link to Week 16 (April 16th – April 22nd)">​</a></h2><ul><li><code>packit dist-git init</code> now allows specifying <code>--version-update-mask</code> option and also any arbitrary top-level configuration options. (<a href="https://github.com/packit/packit/pull/2288" target="_blank" rel="noopener noreferrer">packit#2288</a>)</li><li>We have fixed Packit auto-referencing Upstream Release Monitoring bug for release syncing to CentOS Stream. (<a href="https://github.com/packit/packit/pull/2284" target="_blank" rel="noopener noreferrer">packit#2284</a>)</li><li>We have changed the behaviour of <code>/packit test</code> comment command: in case there is a missing build for some target, the build will not be triggered anymore, it will just be reported to the user. We needed to make this change as with the increased complexity of the configuration (multiple test jobs), the previous implementation was prone to race conditions leading to wasting of resources of Copr and Testing Farm. (<a href="https://github.com/packit/packit-service/pull/2399" target="_blank" rel="noopener noreferrer">packit-service#2399</a>)</li></ul>]]></content:encoded>
+            <author>mfocko@redhat.com (Matej Focko)</author>
+            <category>2024-April</category>
+            <category>2024</category>
+            <category>April</category>
+        </item>
         <item>
             <title><![CDATA[Week 15 in Packit]]></title>
             <link>https://packit.dev/posts/weekly/2024/week-15</link>
