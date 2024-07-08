@@ -5,6 +5,74 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2024/week-26",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-26-june-25th--july-1st\">Week 26 (June 25th – July 1st)<a href=\"#week-26-june-25th--july-1st\" class=\"hash-link\" aria-label=\"Direct link to Week 26 (June 25th – July 1st)\" title=\"Direct link to Week 26 (June 25th – July 1st)\">​</a></h2><ul><li>Enabled HTTP/2 for Packit service. (<a href=\"https://github.com/packit/packit-service/pull/2450\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2450</a>)</li><li>It is now possible to disable reporting of <code>propose_downstream</code> failures by setting <code>notifications.failure_issue.create</code> in the configuration to <code>false</code>. (<a href=\"https://github.com/packit/packit-service/pull/2451\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2451</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-26",
+            "title": "Week 26 in Packit",
+            "summary": "Week 26 (June 25th – July 1st)",
+            "date_modified": "2024-07-01T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2024-June",
+                "2024",
+                "June"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-25",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-25-june-18th--june-24th\">Week 25 (June 18th – June 24th)<a href=\"#week-25-june-18th--june-24th\" class=\"hash-link\" aria-label=\"Direct link to Week 25 (June 18th – June 24th)\" title=\"Direct link to Week 25 (June 18th – June 24th)\">​</a></h2><ul><li>We have fixed an issue that has been introduced by another bug fix.\nThis issue has caused an outage of upstream Koji builds.\n(<a href=\"https://github.com/packit/packit/pull/2329\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2329</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-25",
+            "title": "Week 25 in Packit",
+            "summary": "Week 25 (June 18th – June 24th)",
+            "date_modified": "2024-06-24T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2024-June",
+                "2024",
+                "June"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-24",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-24-june-11th--june-17th\">Week 24 (June 11th – June 17th)<a href=\"#week-24-june-11th--june-17th\" class=\"hash-link\" aria-label=\"Direct link to Week 24 (June 11th – June 17th)\" title=\"Direct link to Week 24 (June 11th – June 17th)\">​</a></h2><ul><li>We have fixed a bug that caused inconsistency between the promised environment variables (from the docs) and the environment that has been actually provided. Now you should have access to <code>PACKIT_UPSTREAM_REPO</code> and <code>PACKIT_DOWNSTREAM_REPO</code> (in case of <code>propose_downstream</code> and <code>pull_from_upstream</code> jobs), in the <code>post-upstream-clone</code> action. (<a href=\"https://github.com/packit/packit/pull/2327\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2327</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-24",
+            "title": "Week 24 in Packit",
+            "summary": "Week 24 (June 11th – June 17th)",
+            "date_modified": "2024-06-18T00:00:00.000Z",
+            "author": {
+                "name": "František Lachman",
+                "url": "https://github.com/lachmanfrantisek"
+            },
+            "tags": [
+                "2024-June",
+                "2024",
+                "June"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-22",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-22-may-28th--june-3rd\">Week 22 (May 28th – June 3rd)<a href=\"#week-22-may-28th--june-3rd\" class=\"hash-link\" aria-label=\"Direct link to Week 22 (May 28th – June 3rd)\" title=\"Direct link to Week 22 (May 28th – June 3rd)\">​</a></h2><ul><li>Issue with pushing to CentOS Stream dist-git on GitLab is now resolved.\n(<a href=\"https://github.com/packit/packit-service/pull/2433\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2433</a>)</li><li>Check for <code>allowed_pr_authors</code>/<code>allowed_committers</code> configuration before running Koji production builds is now more reliable.\n(<a href=\"https://github.com/packit/packit-service/pull/2435\" target=\"_blank\" rel=\"noopener noreferrer\">packit/packit-service#2435</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-22",
+            "title": "Week 22 in Packit",
+            "summary": "Week 22 (May 28th – June 3rd)",
+            "date_modified": "2024-06-03T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2024-May",
+                "2024",
+                "May"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2024/week-21",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-21-may-21st--may-27th\">Week 21 (May 21st – May 27th)<a href=\"#week-21-may-21st--may-27th\" class=\"hash-link\" aria-label=\"Direct link to Week 21 (May 21st – May 27th)\" title=\"Direct link to Week 21 (May 21st – May 27th)\">​</a></h2><ul><li>We have fixed the syncing of ACLs for <code>propose-downtream</code> for CentOS Stream. (<a href=\"https://github.com/packit/packit/pull/2318\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2318</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2024/week-21",

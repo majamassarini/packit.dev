@@ -2,11 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://packit.dev/posts/weekly</id>
     <title>Packit Weekly</title>
-    <updated>2024-05-27T00:00:00.000Z</updated>
+    <updated>2024-07-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://packit.dev/posts/weekly"/>
     <subtitle>Weekly updates by Packit</subtitle>
     <icon>https://packit.dev/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Week 26 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-26</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-26"/>
+        <updated>2024-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 26 (June 25th – July 1st)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-26-june-25th--july-1st">Week 26 (June 25th – July 1st)<a href="#week-26-june-25th--july-1st" class="hash-link" aria-label="Direct link to Week 26 (June 25th – July 1st)" title="Direct link to Week 26 (June 25th – July 1st)">​</a></h2><ul><li>Enabled HTTP/2 for Packit service. (<a href="https://github.com/packit/packit-service/pull/2450" target="_blank" rel="noopener noreferrer">packit-service#2450</a>)</li><li>It is now possible to disable reporting of <code>propose_downstream</code> failures by setting <code>notifications.failure_issue.create</code> in the configuration to <code>false</code>. (<a href="https://github.com/packit/packit-service/pull/2451" target="_blank" rel="noopener noreferrer">packit-service#2451</a>)</li></ul>]]></content>
+        <author>
+            <name>Matej Focko</name>
+            <email>mfocko@redhat.com</email>
+            <uri>https://github.com/mfocko</uri>
+        </author>
+        <category label="2024-June" term="2024-June"/>
+        <category label="2024" term="2024"/>
+        <category label="June" term="June"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 25 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-25</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-25"/>
+        <updated>2024-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 25 (June 18th – June 24th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-25-june-18th--june-24th">Week 25 (June 18th – June 24th)<a href="#week-25-june-18th--june-24th" class="hash-link" aria-label="Direct link to Week 25 (June 18th – June 24th)" title="Direct link to Week 25 (June 18th – June 24th)">​</a></h2><ul><li>We have fixed an issue that has been introduced by another bug fix.
+This issue has caused an outage of upstream Koji builds.
+(<a href="https://github.com/packit/packit/pull/2329" target="_blank" rel="noopener noreferrer">packit#2329</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2024-June" term="2024-June"/>
+        <category label="2024" term="2024"/>
+        <category label="June" term="June"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 24 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-24</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-24"/>
+        <updated>2024-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 24 (June 11th – June 17th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-24-june-11th--june-17th">Week 24 (June 11th – June 17th)<a href="#week-24-june-11th--june-17th" class="hash-link" aria-label="Direct link to Week 24 (June 11th – June 17th)" title="Direct link to Week 24 (June 11th – June 17th)">​</a></h2><ul><li>We have fixed a bug that caused inconsistency between the promised environment variables (from the docs) and the environment that has been actually provided. Now you should have access to <code>PACKIT_UPSTREAM_REPO</code> and <code>PACKIT_DOWNSTREAM_REPO</code> (in case of <code>propose_downstream</code> and <code>pull_from_upstream</code> jobs), in the <code>post-upstream-clone</code> action. (<a href="https://github.com/packit/packit/pull/2327" target="_blank" rel="noopener noreferrer">packit#2327</a>)</li></ul>]]></content>
+        <author>
+            <name>František Lachman</name>
+            <email>flachman@redhat.com</email>
+            <uri>https://github.com/lachmanfrantisek</uri>
+        </author>
+        <category label="2024-June" term="2024-June"/>
+        <category label="2024" term="2024"/>
+        <category label="June" term="June"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 22 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2024/week-22</id>
+        <link href="https://packit.dev/posts/weekly/2024/week-22"/>
+        <updated>2024-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 22 (May 28th – June 3rd)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-22-may-28th--june-3rd">Week 22 (May 28th – June 3rd)<a href="#week-22-may-28th--june-3rd" class="hash-link" aria-label="Direct link to Week 22 (May 28th – June 3rd)" title="Direct link to Week 22 (May 28th – June 3rd)">​</a></h2><ul><li>Issue with pushing to CentOS Stream dist-git on GitLab is now resolved.
+(<a href="https://github.com/packit/packit-service/pull/2433" target="_blank" rel="noopener noreferrer">packit-service#2433</a>)</li><li>Check for <code>allowed_pr_authors</code>/<code>allowed_committers</code> configuration before running Koji production builds is now more reliable.
+(<a href="https://github.com/packit/packit-service/pull/2435" target="_blank" rel="noopener noreferrer">packit/packit-service#2435</a>)</li></ul>]]></content>
+        <author>
+            <name>Laura Barcziová</name>
+            <email>lbarczio@redhat.com</email>
+            <uri>https://github.com/lbarcziova</uri>
+        </author>
+        <category label="2024-May" term="2024-May"/>
+        <category label="2024" term="2024"/>
+        <category label="May" term="May"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Week 21 in Packit]]></title>
         <id>https://packit.dev/posts/weekly/2024/week-21</id>
