@@ -5,6 +5,125 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2024/week-33",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-33-august-13th--august-19th\">Week 33 (August 13th – August 19th)<a href=\"#week-33-august-13th--august-19th\" class=\"hash-link\" aria-label=\"Direct link to Week 33 (August 13th – August 19th)\" title=\"Direct link to Week 33 (August 13th – August 19th)\">​</a></h2><ul><li>Several internal, but also performance improvements were done on our dashboard, thanks to\n<a href=\"https://github.com/Venefilyn\" target=\"_blank\" rel=\"noopener noreferrer\">Freya Gustavsson</a> (<a href=\"https://github.com/packit/dashboard/pull/435\" target=\"_blank\" rel=\"noopener noreferrer\">packit/dashboard#435</a>)!</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-33",
+            "title": "Week 33 in Packit",
+            "summary": "Week 33 (August 13th – August 19th)",
+            "date_modified": "2024-08-19T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2024-August",
+                "2024",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-32",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-32-august-6th--august-12th\">Week 32 (August 6th – August 12th)<a href=\"#week-32-august-6th--august-12th\" class=\"hash-link\" aria-label=\"Direct link to Week 32 (August 6th – August 12th)\" title=\"Direct link to Week 32 (August 6th – August 12th)\">​</a></h2><ul><li>Packit now passes <code>PACKIT_TAG_NAME</code> to the Testing Farm run when it's triggered by a release event.\nThanks <a href=\"https://github.com/Frawless\" target=\"_blank\" rel=\"noopener noreferrer\">@Frawless</a>.\n(<a href=\"https://github.com/packit/packit-service/pull/2494\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2494</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-32",
+            "title": "Week 32 in Packit",
+            "summary": "Week 32 (August 6th – August 12th)",
+            "date_modified": "2024-08-12T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2024-August",
+                "2024",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-31",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-31-july-30th--august-5th\">Week 31 (July 30th – August 5th)<a href=\"#week-31-july-30th--august-5th\" class=\"hash-link\" aria-label=\"Direct link to Week 31 (July 30th – August 5th)\" title=\"Direct link to Week 31 (July 30th – August 5th)\">​</a></h2><ul><li>It is now possible to run tests for releases. (<a href=\"https://github.com/packit/packit-service/pull/2490\" target=\"_blank\" rel=\"noopener noreferrer\">packit/packit-service#2490</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-31",
+            "title": "Week 31 in Packit",
+            "summary": "Week 31 (July 30th – August 5th)",
+            "date_modified": "2024-08-05T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2024-August",
+                "2024",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-30",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-30-july-23rd--july-29th\">Week 30 (July 23rd – July 29th)<a href=\"#week-30-july-23rd--july-29th\" class=\"hash-link\" aria-label=\"Direct link to Week 30 (July 23rd – July 29th)\" title=\"Direct link to Week 30 (July 23rd – July 29th)\">​</a></h2><ul><li><code>packit pull-from-upstream</code> now allows omitting <code>upstream_project_url</code> in the configuration in which case the interaction with the upstream repository is skipped during release syncing. (<a href=\"https://github.com/packit/packit/pull/2354\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2354</a>)</li><li>We have added the initial version of functionality for running scans in OpenScanHub. You can read more about this functionality\n<a href=\"https://packit.dev/docs/configuration#osh_diff_scan_after_copr_build\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>. (<a href=\"https://github.com/packit/packit-service/pull/2472\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2472</a>)</li><li>Added a new configuration option <code>sync_test_job_statuses_with_builds</code> that controls whether test job statuses are updated together with their corresponding build job statuses. When set to <code>false</code>, while tests jobs are waiting for their corresponding build jobs to finish, their statuses remain in pending state and only build job statuses are updated. (<a href=\"https://github.com/packit/packit-service/pull/2470\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2470</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-30",
+            "title": "Week 30 in Packit",
+            "summary": "Week 30 (July 23rd – July 29th)",
+            "date_modified": "2024-07-29T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2024-July",
+                "2024",
+                "July"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-29",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-29-july-16th--july-22nd\">Week 29 (July 16th – July 22nd)<a href=\"#week-29-july-16th--july-22nd\" class=\"hash-link\" aria-label=\"Direct link to Week 29 (July 16th – July 22nd)\" title=\"Direct link to Week 29 (July 16th – July 22nd)\">​</a></h2><ul><li>We have implemented a CLI support for Koji builds against CBS Koji instance. (<a href=\"https://github.com/packit/packit/pull/2267\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2267</a>)</li><li>Added a new configuration option <code>sync_test_job_statuses_with_builds</code> that controls whether test job statuses are updated together with their corresponding build job statuses. When set to <code>false</code>, while tests jobs are waiting for their corresponding build jobs to finish, their statuses remain in pending state and only build job statuses are updated. (<a href=\"https://github.com/packit/packit-service/pull/2470\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2470</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-29",
+            "title": "Week 29 in Packit",
+            "summary": "Week 29 (July 16th – July 22nd)",
+            "date_modified": "2024-07-22T00:00:00.000Z",
+            "author": {
+                "name": "František Lachman",
+                "url": "https://github.com/lachmanfrantisek"
+            },
+            "tags": [
+                "2024-July",
+                "2024",
+                "July"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-28",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-28-july-9th--july-15th\">Week 28 (July 9th – July 15th)<a href=\"#week-28-july-9th--july-15th\" class=\"hash-link\" aria-label=\"Direct link to Week 28 (July 9th – July 15th)\" title=\"Direct link to Week 28 (July 9th – July 15th)\">​</a></h2><ul><li>We have improved the babysitting of Testing Farm runs to better handle API outages.\n(<a href=\"https://github.com/packit/packit-service/pull/2464\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2464</a>)</li><li>We have adjusted commenting behaviour regarding Packit logs on release syncing PRs.\n(<a href=\"https://github.com/packit/packit-service/pull/2373\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2373</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-28",
+            "title": "Week 28 in Packit",
+            "summary": "Week 28 (July 9th – July 15th)",
+            "date_modified": "2024-07-15T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2024-July",
+                "2024",
+                "July"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-27",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-27-july-2nd--july-8th\">Week 27 (July 2nd – July 8th)<a href=\"#week-27-july-2nd--july-8th\" class=\"hash-link\" aria-label=\"Direct link to Week 27 (July 2nd – July 8th)\" title=\"Direct link to Week 27 (July 2nd – July 8th)\">​</a></h2><ul><li>Packit now updates its own, not yet merged, pull requests instead of creating new ones when syncing new releases downstream. (<a href=\"https://github.com/packit/packit/pull/2204\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2204</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-27",
+            "title": "Week 27 in Packit",
+            "summary": "Week 27 (July 2nd – July 8th)",
+            "date_modified": "2024-07-08T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2024-July",
+                "2024",
+                "July"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2024/week-26",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-26-june-25th--july-1st\">Week 26 (June 25th – July 1st)<a href=\"#week-26-june-25th--july-1st\" class=\"hash-link\" aria-label=\"Direct link to Week 26 (June 25th – July 1st)\" title=\"Direct link to Week 26 (June 25th – July 1st)\">​</a></h2><ul><li>Enabled HTTP/2 for Packit service. (<a href=\"https://github.com/packit/packit-service/pull/2450\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2450</a>)</li><li>It is now possible to disable reporting of <code>propose_downstream</code> failures by setting <code>notifications.failure_issue.create</code> in the configuration to <code>false</code>. (<a href=\"https://github.com/packit/packit-service/pull/2451\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2451</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2024/week-26",

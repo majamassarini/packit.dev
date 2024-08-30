@@ -4,10 +4,100 @@
         <title>Packit Weekly</title>
         <link>https://packit.dev/posts/weekly</link>
         <description>Weekly updates by Packit</description>
-        <lastBuildDate>Mon, 01 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Aug 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Week 33 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-33</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-33</guid>
+            <pubDate>Mon, 19 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 33 (August 13th – August 19th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-33-august-13th--august-19th">Week 33 (August 13th – August 19th)<a href="#week-33-august-13th--august-19th" class="hash-link" aria-label="Direct link to Week 33 (August 13th – August 19th)" title="Direct link to Week 33 (August 13th – August 19th)">​</a></h2><ul><li>Several internal, but also performance improvements were done on our dashboard, thanks to
+<a href="https://github.com/Venefilyn" target="_blank" rel="noopener noreferrer">Freya Gustavsson</a> (<a href="https://github.com/packit/dashboard/pull/435" target="_blank" rel="noopener noreferrer">packit/dashboard#435</a>)!</li></ul>]]></content:encoded>
+            <author>lbarczio@redhat.com (Laura Barcziová)</author>
+            <category>2024-August</category>
+            <category>2024</category>
+            <category>August</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 32 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-32</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-32</guid>
+            <pubDate>Mon, 12 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 32 (August 6th – August 12th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-32-august-6th--august-12th">Week 32 (August 6th – August 12th)<a href="#week-32-august-6th--august-12th" class="hash-link" aria-label="Direct link to Week 32 (August 6th – August 12th)" title="Direct link to Week 32 (August 6th – August 12th)">​</a></h2><ul><li>Packit now passes <code>PACKIT_TAG_NAME</code> to the Testing Farm run when it's triggered by a release event.
+Thanks <a href="https://github.com/Frawless" target="_blank" rel="noopener noreferrer">@Frawless</a>.
+(<a href="https://github.com/packit/packit-service/pull/2494" target="_blank" rel="noopener noreferrer">packit-service#2494</a>)</li></ul>]]></content:encoded>
+            <author>nforro@redhat.com (Nikola Forró)</author>
+            <category>2024-August</category>
+            <category>2024</category>
+            <category>August</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 31 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-31</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-31</guid>
+            <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 31 (July 30th – August 5th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-31-july-30th--august-5th">Week 31 (July 30th – August 5th)<a href="#week-31-july-30th--august-5th" class="hash-link" aria-label="Direct link to Week 31 (July 30th – August 5th)" title="Direct link to Week 31 (July 30th – August 5th)">​</a></h2><ul><li>It is now possible to run tests for releases. (<a href="https://github.com/packit/packit-service/pull/2490" target="_blank" rel="noopener noreferrer">packit/packit-service#2490</a>)</li></ul>]]></content:encoded>
+            <author>lbarczio@redhat.com (Laura Barcziová)</author>
+            <category>2024-August</category>
+            <category>2024</category>
+            <category>August</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 30 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-30</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-30</guid>
+            <pubDate>Mon, 29 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 30 (July 23rd – July 29th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-30-july-23rd--july-29th">Week 30 (July 23rd – July 29th)<a href="#week-30-july-23rd--july-29th" class="hash-link" aria-label="Direct link to Week 30 (July 23rd – July 29th)" title="Direct link to Week 30 (July 23rd – July 29th)">​</a></h2><ul><li><code>packit pull-from-upstream</code> now allows omitting <code>upstream_project_url</code> in the configuration in which case the interaction with the upstream repository is skipped during release syncing. (<a href="https://github.com/packit/packit/pull/2354" target="_blank" rel="noopener noreferrer">packit#2354</a>)</li><li>We have added the initial version of functionality for running scans in OpenScanHub. You can read more about this functionality
+<a href="https://packit.dev/docs/configuration#osh_diff_scan_after_copr_build" target="_blank" rel="noopener noreferrer">here</a>. (<a href="https://github.com/packit/packit-service/pull/2472" target="_blank" rel="noopener noreferrer">packit-service#2472</a>)</li><li>Added a new configuration option <code>sync_test_job_statuses_with_builds</code> that controls whether test job statuses are updated together with their corresponding build job statuses. When set to <code>false</code>, while tests jobs are waiting for their corresponding build jobs to finish, their statuses remain in pending state and only build job statuses are updated. (<a href="https://github.com/packit/packit-service/pull/2470" target="_blank" rel="noopener noreferrer">packit-service#2470</a>)</li></ul>]]></content:encoded>
+            <author>mfocko@redhat.com (Matej Focko)</author>
+            <category>2024-July</category>
+            <category>2024</category>
+            <category>July</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 29 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-29</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-29</guid>
+            <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 29 (July 16th – July 22nd)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-29-july-16th--july-22nd">Week 29 (July 16th – July 22nd)<a href="#week-29-july-16th--july-22nd" class="hash-link" aria-label="Direct link to Week 29 (July 16th – July 22nd)" title="Direct link to Week 29 (July 16th – July 22nd)">​</a></h2><ul><li>We have implemented a CLI support for Koji builds against CBS Koji instance. (<a href="https://github.com/packit/packit/pull/2267" target="_blank" rel="noopener noreferrer">packit#2267</a>)</li><li>Added a new configuration option <code>sync_test_job_statuses_with_builds</code> that controls whether test job statuses are updated together with their corresponding build job statuses. When set to <code>false</code>, while tests jobs are waiting for their corresponding build jobs to finish, their statuses remain in pending state and only build job statuses are updated. (<a href="https://github.com/packit/packit-service/pull/2470" target="_blank" rel="noopener noreferrer">packit-service#2470</a>)</li></ul>]]></content:encoded>
+            <author>flachman@redhat.com (František Lachman)</author>
+            <category>2024-July</category>
+            <category>2024</category>
+            <category>July</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 28 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-28</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-28</guid>
+            <pubDate>Mon, 15 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 28 (July 9th – July 15th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-28-july-9th--july-15th">Week 28 (July 9th – July 15th)<a href="#week-28-july-9th--july-15th" class="hash-link" aria-label="Direct link to Week 28 (July 9th – July 15th)" title="Direct link to Week 28 (July 9th – July 15th)">​</a></h2><ul><li>We have improved the babysitting of Testing Farm runs to better handle API outages.
+(<a href="https://github.com/packit/packit-service/pull/2464" target="_blank" rel="noopener noreferrer">packit-service#2464</a>)</li><li>We have adjusted commenting behaviour regarding Packit logs on release syncing PRs.
+(<a href="https://github.com/packit/packit-service/pull/2373" target="_blank" rel="noopener noreferrer">packit-service#2373</a>)</li></ul>]]></content:encoded>
+            <author>nforro@redhat.com (Nikola Forró)</author>
+            <category>2024-July</category>
+            <category>2024</category>
+            <category>July</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 27 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2024/week-27</link>
+            <guid>https://packit.dev/posts/weekly/2024/week-27</guid>
+            <pubDate>Mon, 08 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 27 (July 2nd – July 8th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-27-july-2nd--july-8th">Week 27 (July 2nd – July 8th)<a href="#week-27-july-2nd--july-8th" class="hash-link" aria-label="Direct link to Week 27 (July 2nd – July 8th)" title="Direct link to Week 27 (July 2nd – July 8th)">​</a></h2><ul><li>Packit now updates its own, not yet merged, pull requests instead of creating new ones when syncing new releases downstream. (<a href="https://github.com/packit/packit/pull/2204" target="_blank" rel="noopener noreferrer">packit#2204</a>)</li></ul>]]></content:encoded>
+            <author>mmassari@redhat.com (Maja Massarini)</author>
+            <category>2024-July</category>
+            <category>2024</category>
+            <category>July</category>
+        </item>
         <item>
             <title><![CDATA[Week 26 in Packit]]></title>
             <link>https://packit.dev/posts/weekly/2024/week-26</link>
