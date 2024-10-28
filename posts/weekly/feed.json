@@ -5,6 +5,74 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2024/week-41",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-41-october-8th--october-14th\">Week 41 (October 8th – October 14th)<a href=\"#week-41-october-8th--october-14th\" class=\"hash-link\" aria-label=\"Direct link to Week 41 (October 8th – October 14th)\" title=\"Direct link to Week 41 (October 8th – October 14th)\">​</a></h2><ul><li>We have fixed an issue that was introduced during the unification of the interface for passing resolved Bugzillas / Jira tickets to the <code>sync-release</code> or <code>bodhi_update</code> jobs. (<a href=\"https://github.com/packit/packit/pull/2442\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2442</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-41",
+            "title": "Week 41 in Packit",
+            "summary": "Week 41 (October 8th – October 14th)",
+            "date_modified": "2024-10-14T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2024-October",
+                "2024",
+                "October"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-40",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-40-october-1st--october-7th\">Week 40 (October 1st – October 7th)<a href=\"#week-40-october-1st--october-7th\" class=\"hash-link\" aria-label=\"Direct link to Week 40 (October 1st – October 7th)\" title=\"Direct link to Week 40 (October 1st – October 7th)\">​</a></h2><ul><li><code>packit validate-config</code> now checks for the existence of the downstream package. (<a href=\"https://github.com/packit/packit/pull/2436\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2436</a>)</li><li>Packit now allows building VM images via CLI without any Copr repository specified. (<a href=\"https://github.com/packit/packit/pull/2434\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2434</a>)</li><li>We have unified interface of passing resolved bugs (e.g., Bugzillas as of now) to Packit CLI and via comments. Both CLI and comments now use <code>--resolve-bug</code> switch (comments accept comma-separated list of bugs, CLI accepts the switch multiple times (also <code>-b</code>)).\n(<a href=\"https://github.com/packit/packit/pull/2428\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2428</a> and <a href=\"https://github.com/packit/packit-service/pull/2560\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2560</a>)</li><li><code>packit init</code> now adds working directories that are used in <code>packit prepare-sources</code> into the <code>.gitignore</code> file in the same directory where Packit config resides. (<a href=\"https://github.com/packit/packit/pull/2431\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2431</a>)</li><li>Before triggering the non-scratch Koji builds, we now check whether there is not already a build in progress or completed for the same NVR. (<a href=\"https://github.com/packit/packit-service/pull/2559\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2559</a>)</li><li>We have improved the error reporting for failed downstream jobs. (<a href=\"https://github.com/packit/packit-service/pull/2544\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2544</a>)</li><li>We have fixed an issue that caused inconsistencies with the expected behaviour stated by the documentation when adding duplicitous reactions to GitLab comments. (<a href=\"https://github.com/packit/ogr/pull/861\" target=\"_blank\" rel=\"noopener noreferrer\">ogr#861</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-40",
+            "title": "Week 40 in Packit",
+            "summary": "Week 40 (October 1st – October 7th)",
+            "date_modified": "2024-10-07T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2024-October",
+                "2024",
+                "October"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-39",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-39-september-24th--september-30th\">Week 39 (September 24th – September 30th)<a href=\"#week-39-september-24th--september-30th\" class=\"hash-link\" aria-label=\"Direct link to Week 39 (September 24th – September 30th)\" title=\"Direct link to Week 39 (September 24th – September 30th)\">​</a></h2><ul><li>Check for <code>upstream_project_url</code> presence in the configuration when <code>pull_from_upstream</code> job is configured was removed from <code>validate-config</code>, as this is no longer required. (<a href=\"https://github.com/packit/packit/pull/2423\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2423</a>)</li><li>We have added a note about retriggering <code>pull_from_upstream</code> job from dist-git pull requests. (<a href=\"https://github.com/packit/packit-service/pull/2542\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2542</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-39",
+            "title": "Week 39 in Packit",
+            "summary": "Week 39 (September 24th – September 30th)",
+            "date_modified": "2024-09-30T00:00:00.000Z",
+            "author": {
+                "name": "František Lachman",
+                "url": "https://github.com/lachmanfrantisek"
+            },
+            "tags": [
+                "2024-September",
+                "2024",
+                "September"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2024/week-38",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-38-september-17th--september-23rd\">Week 38 (September 17th – September 23rd)<a href=\"#week-38-september-17th--september-23rd\" class=\"hash-link\" aria-label=\"Direct link to Week 38 (September 17th – September 23rd)\" title=\"Direct link to Week 38 (September 17th – September 23rd)\">​</a></h2><ul><li>Packit now allows to configure mock bootstrap feature setup of Copr projects with a new <code>bootstrap</code> configuration option. (<a href=\"https://github.com/packit/packit/pull/2411\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2411</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2024/week-38",
+            "title": "Week 38 in Packit",
+            "summary": "Week 38 (September 17th – September 23rd)",
+            "date_modified": "2024-09-23T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2024-September",
+                "2024",
+                "September"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2024/week-37",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-37-september-10th--september-16th\">Week 37 (September 10th – September 16th)<a href=\"#week-37-september-10th--september-16th\" class=\"hash-link\" aria-label=\"Direct link to Week 37 (September 10th – September 16th)\" title=\"Direct link to Week 37 (September 10th – September 16th)\">​</a></h2><ul><li>We have fixed showing of Bodhi updates that are triggered by non-Packit Koji builds on our dashboard.\n(<a href=\"https://github.com/packit/packit-service/pull/2528\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2528</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2024/week-37",
