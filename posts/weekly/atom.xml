@@ -2,11 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://packit.dev/posts/weekly</id>
     <title>Packit Weekly</title>
-    <updated>2025-02-10T00:00:00.000Z</updated>
+    <updated>2025-04-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://packit.dev/posts/weekly"/>
     <subtitle>Weekly updates by Packit</subtitle>
     <icon>https://packit.dev/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Week 14 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2025/week-14</id>
+        <link href="https://packit.dev/posts/weekly/2025/week-14"/>
+        <updated>2025-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 14 (April 1st – April 7th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-14-april-1st--april-7th">Week 14 (April 1st – April 7th)<a href="#week-14-april-1st--april-7th" class="hash-link" aria-label="Direct link to Week 14 (April 1st – April 7th)" title="Direct link to Week 14 (April 1st – April 7th)">​</a></h2><ul><li>When using <code>fast_forward_merge_into</code>, <code>version_update_mask</code> is now correctly being taken into consideration. (<a href="https://github.com/packit/packit/pull/2551" target="_blank" rel="noopener noreferrer">packit#2551</a>)</li><li>We have introduced a new <code>config</code> command group for configuration-related commands and moved the <code>validate-config</code> command under it, resulting in the new command being <code>packit config validate</code>. (<a href="https://github.com/packit/packit/pull/2559" target="_blank" rel="noopener noreferrer">packit#2559</a>)</li><li>It is now possible to retrigger dist-git CI scratch builds with <code>/packit scratch-build</code>. (<a href="https://github.com/packit/packit-service/pull/2770" target="_blank" rel="noopener noreferrer">packit-service#2770</a>)</li></ul>]]></content>
+        <author>
+            <name>František Lachman</name>
+            <email>flachman@redhat.com</email>
+            <uri>https://github.com/lachmanfrantisek</uri>
+        </author>
+        <category label="2025-April" term="2025-April"/>
+        <category label="2025" term="2025"/>
+        <category label="April" term="April"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 13 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2025/week-13</id>
+        <link href="https://packit.dev/posts/weekly/2025/week-13"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 13 (March 25th – March 31st)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-13-march-25th--march-31st">Week 13 (March 25th – March 31st)<a href="#week-13-march-25th--march-31st" class="hash-link" aria-label="Direct link to Week 13 (March 25th – March 31st)" title="Direct link to Week 13 (March 25th – March 31st)">​</a></h2><ul><li>We have fixed an issue that could cause subsequent runs
+of <code>propose_downstream</code>/<code>pull_from_upstream</code> to fail if upstream git repo
+contains submodules that are manipulated with in actions.
+(<a href="https://github.com/packit/packit-service/pull/2768" target="_blank" rel="noopener noreferrer">packit-service#2768</a>)</li><li>Packit now supports <code>--base-nvr</code> option when submitting scans to OpenScanHub.
+The base NVR is pulled in from Koji to perform a differential scan.
+(<a href="https://github.com/packit/packit/pull/2569" target="_blank" rel="noopener noreferrer">packit#2569</a>)</li><li>Packit CLI now submits Koji builds in parallel.
+(<a href="https://github.com/packit/packit/pull/2568" target="_blank" rel="noopener noreferrer">packit#2568</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2025-March" term="2025-March"/>
+        <category label="2025" term="2025"/>
+        <category label="March" term="March"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 11 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2025/week-11</id>
+        <link href="https://packit.dev/posts/weekly/2025/week-11"/>
+        <updated>2025-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 11 (March 11th – March 17th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-11-march-11th--march-17th">Week 11 (March 11th – March 17th)<a href="#week-11-march-11th--march-17th" class="hash-link" aria-label="Direct link to Week 11 (March 11th – March 17th)" title="Direct link to Week 11 (March 11th – March 17th)">​</a></h2><ul><li>It is now possible to set <code>use_target_repo_for_fmf_url</code> configuration flag to bypass
+the default passing of fork URLs for test requests.
+(<a href="https://github.com/packit/packit-service/pull/2752" target="_blank" rel="noopener noreferrer">packit-service#2752</a>)</li><li>Packit as Fedora CI no longer overwrites Koji scratch build statuses on a PR
+when the same commit is shared between different target branches.
+(<a href="https://github.com/packit/packit-service/pull/2747" target="_blank" rel="noopener noreferrer">packit-service#2747</a>)</li><li>New aliases for minor versions of EPEL have been added, see the
+<a href="/docs/configuration#epel-minor-version-aliases">documentation</a>
+for more details.
+(<a href="https://github.com/rpm-software-management/fedora-distro-aliases/pull/27" target="_blank" rel="noopener noreferrer">fedora-distro-aliases#27</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2025-March" term="2025-March"/>
+        <category label="2025" term="2025"/>
+        <category label="March" term="March"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 9 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2025/week-9</id>
+        <link href="https://packit.dev/posts/weekly/2025/week-9"/>
+        <updated>2025-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 9 (February 25th – March 3rd)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-9-february-25th--march-3rd">Week 9 (February 25th – March 3rd)<a href="#week-9-february-25th--march-3rd" class="hash-link" aria-label="Direct link to Week 9 (February 25th – March 3rd)" title="Direct link to Week 9 (February 25th – March 3rd)">​</a></h2><ul><li>(Fedora dist-git CI beta) You can now trigger scratch Koji builds from the dist-git PRs even when the PR is created from the branch on the same repository. (<a href="https://github.com/packit/packit-service/pull/2732" target="_blank" rel="noopener noreferrer">packit-service#2732</a>)</li></ul>]]></content>
+        <author>
+            <name>Matej Focko</name>
+            <email>mfocko@redhat.com</email>
+            <uri>https://github.com/mfocko</uri>
+        </author>
+        <category label="2025-February" term="2025-February"/>
+        <category label="2025" term="2025"/>
+        <category label="February" term="February"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 7 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2025/week-7</id>
+        <link href="https://packit.dev/posts/weekly/2025/week-7"/>
+        <updated>2025-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 7 (February 11th – February 17th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-7-february-11th--february-17th">Week 7 (February 11th – February 17th)<a href="#week-7-february-11th--february-17th" class="hash-link" aria-label="Direct link to Week 7 (February 11th – February 17th)" title="Direct link to Week 7 (February 11th – February 17th)">​</a></h2><ul><li>Packit now reloads spec files after all <code>actions</code> that might modify them during release syncing.
+This adds support for use cases like regenerating the spec file, see <a href="https://packit.dev/docs/configuration/examples#fedora-release-automation" target="_blank" rel="noopener noreferrer">rust2rpm example</a>.
+(<a href="https://github.com/packit/packit/pull/2521" target="_blank" rel="noopener noreferrer">packit#2521</a>)</li></ul>]]></content>
+        <author>
+            <name>Laura Barcziová</name>
+            <email>lbarczio@redhat.com</email>
+            <uri>https://github.com/lbarcziova</uri>
+        </author>
+        <category label="2025-February" term="2025-February"/>
+        <category label="2025" term="2025"/>
+        <category label="February" term="February"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Week 6 in Packit]]></title>
         <id>https://packit.dev/posts/weekly/2025/week-6</id>
