@@ -5,6 +5,176 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2025/week-43",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-43-october-22nd--october-29st\">Week 43 (October 22nd – October 29st)<a href=\"#week-43-october-22nd--october-29st\" class=\"hash-link\" aria-label=\"Direct link to Week 43 (October 22nd – October 29st)\" title=\"Direct link to Week 43 (October 22nd – October 29st)\">​</a></h2><ul><li>Resolve an issue with <code>pyforgejo</code> import that was introduced with a new upstream release. (<a href=\"https://github.com/packit/ogr/pull/949\" target=\"_blank\" rel=\"noopener noreferrer\">packit/ogr#949</a>)</li><li>The Copr build ID is now exposed as <code>PACKIT_COPR_BUILD_ID</code> in the Testing Farm tests. (<a href=\"https://github.com/packit/packit-service/pull/2857\" target=\"_blank\" rel=\"noopener noreferrer\">packit/packit-service#2857</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-43",
+            "title": "Week 43 in Packit",
+            "summary": "Week 43 (October 22nd – October 29st)",
+            "date_modified": "2025-10-29T00:00:00.000Z",
+            "author": {
+                "name": "Tomáš Tomeček",
+                "url": "https://github.com/TomasTomecek"
+            },
+            "tags": [
+                "2025-October",
+                "2025",
+                "October"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-42",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-42-october-15th--october-21st\">Week 42 (October 15th – October 21st)<a href=\"#week-42-october-15th--october-21st\" class=\"hash-link\" aria-label=\"Direct link to Week 42 (October 15th – October 21st)\" title=\"Direct link to Week 42 (October 15th – October 21st)\">​</a></h2><ul><li>Packit as Fedora CI now runs rpminspect tests by default.\n(<a href=\"https://github.com/packit/packit-service/pull/2845\" target=\"_blank\" rel=\"noopener noreferrer\">packit/packit-service#2845</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-42",
+            "title": "Week 42 in Packit",
+            "summary": "Week 42 (October 15th – October 21st)",
+            "date_modified": "2025-10-21T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2025-October",
+                "2025",
+                "October"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-35",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-35-august-26th--september-1st\">Week 35 (August 26th – September 1st)<a href=\"#week-35-august-26th--september-1st\" class=\"hash-link\" aria-label=\"Direct link to Week 35 (August 26th – September 1st)\" title=\"Direct link to Week 35 (August 26th – September 1st)\">​</a></h2><ul><li>We have fixed a bug that caused issues when triggering tests for Fedora ELN. (<a href=\"https://github.com/packit/packit-service/pull/2844\" target=\"_blank\" rel=\"noopener noreferrer\">packit/packit-service#2844</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-35",
+            "title": "Week 35 in Packit",
+            "summary": "Week 35 (August 26th – September 1st)",
+            "date_modified": "2025-09-01T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2025-August",
+                "2025",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-34",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-34-august-19th--august-25th\">Week 34 (August 19th – August 25th)<a href=\"#week-34-august-19th--august-25th\" class=\"hash-link\" aria-label=\"Direct link to Week 34 (August 19th – August 25th)\" title=\"Direct link to Week 34 (August 19th – August 25th)\">​</a></h2><ul><li>Packit now automatically invokes an RPM build in <code>mock</code> when no RPMs are provided when running <code>packit test</code> in the CLI. (<a href=\"https://github.com/packit/packit/pull/2636\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2636</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-34",
+            "title": "Week 34 in Packit",
+            "summary": "Week 34 (August 19th – August 25th)",
+            "date_modified": "2025-08-25T00:00:00.000Z",
+            "author": {
+                "name": "Alžběta Kučerová",
+                "url": "https://github.com/betulependule"
+            },
+            "tags": [
+                "2025-August",
+                "2025",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-33",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-33-august-12th--august-18th\">Week 33 (August 12th – August 18th)<a href=\"#week-33-august-12th--august-18th\" class=\"hash-link\" aria-label=\"Direct link to Week 33 (August 12th – August 18th)\" title=\"Direct link to Week 33 (August 12th – August 18th)\">​</a></h2><ul><li>In test jobs, it is now explicitly required to include the targets needed for running build jobs;\nthey will no longer be automatically deduced to prevent inconsistencies in creating build and test jobs.\n(<a href=\"https://github.com/packit/packit-service/pull/2785\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2785</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-33",
+            "title": "Week 33 in Packit",
+            "summary": "Week 33 (August 12th – August 18th)",
+            "date_modified": "2025-08-18T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2025-August",
+                "2025",
+                "August"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-25",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-25-june-17th--june-23rd\">Week 25 (June 17th – June 23rd)<a href=\"#week-25-june-17th--june-23rd\" class=\"hash-link\" aria-label=\"Direct link to Week 25 (June 17th – June 23rd)\" title=\"Direct link to Week 25 (June 17th – June 23rd)\">​</a></h2><ul><li>We have added support for the <code>eln</code> dist-git branch and the <code>Fedora-eln</code> Testing Farm compose in Packit as Fedora CI.\n(<a href=\"https://github.com/packit/packit/pull/2630\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2630</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-25",
+            "title": "Week 25 in Packit",
+            "summary": "Week 25 (June 17th – June 23rd)",
+            "date_modified": "2025-06-23T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2025-June",
+                "2025",
+                "June"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-23-24",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-23-24-june-3rd--june-16th\">Week 23-24 (June 3rd – June 16th)<a href=\"#week-23-24-june-3rd--june-16th\" class=\"hash-link\" aria-label=\"Direct link to Week 23-24 (June 3rd – June 16th)\" title=\"Direct link to Week 23-24 (June 3rd – June 16th)\">​</a></h2><ul><li>Team was attending and presenting at <a href=\"https://fedoraproject.org/flock/2025/\" target=\"_blank\" rel=\"noopener noreferrer\">Flock to Fedora</a> and\n<a href=\"https://www.devconf.info/cz/\" target=\"_blank\" rel=\"noopener noreferrer\">Devconf.cz</a> conferences. The highlight for us was connecting with so many Packit users in person!\nWe want to thank everyone who attended our sessions and shared their feedback. If you are curious, here is the list of sessions we held:<ul><li><a href=\"https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/VZETQA/\" target=\"_blank\" rel=\"noopener noreferrer\">Even more release automation talk</a></li><li><a href=\"https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/TNVBXQ/\" target=\"_blank\" rel=\"noopener noreferrer\">What about a better dist-git CI?</a></li><li><a href=\"https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/CLDGTL/\" target=\"_blank\" rel=\"noopener noreferrer\">specfile library + norpm</a></li><li><a href=\"https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/JBYMTX/\" target=\"_blank\" rel=\"noopener noreferrer\">Smarter package maintenance with Packit (workshop)</a></li><li><a href=\"https://pretalx.devconf.info/devconf-cz-2025/talk/TLPB3M/\" target=\"_blank\" rel=\"noopener noreferrer\">Kanban, our way</a></li><li><a href=\"https://pretalx.devconf.info/devconf-cz-2025/talk/UTGBCF/\" target=\"_blank\" rel=\"noopener noreferrer\">Breaking Changes Without Breaking Users: Lessons from Packit 1.0</a></li><li><a href=\"https://pretalx.devconf.info/devconf-cz-2025/talk/7DESJP/\" target=\"_blank\" rel=\"noopener noreferrer\">Breaking Barriers: Cross-Distro CI/CD with Packit and OBS</a></li></ul></li><li>Packit now exposes <code>specfile_path</code> from configuration (or its default value) as the environment variable <code>PACKIT_SPECFILE_PATH</code> for all Packit actions. (<a href=\"https://github.com/packit/packit/pull/2589\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit#2589</code></a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-23-24",
+            "title": "Week 23 and 24 in Packit",
+            "summary": "Week 23-24 (June 3rd – June 16th)",
+            "date_modified": "2025-06-16T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2025-June",
+                "2025",
+                "June"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-22",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-22-may-26th--june-1st\">Week 22 (May 26th – June 1st)<a href=\"#week-22-may-26th--june-1st\" class=\"hash-link\" aria-label=\"Direct link to Week 22 (May 26th – June 1st)\" title=\"Direct link to Week 22 (May 26th – June 1st)\">​</a></h2><ul><li><p>We have added a new <code>run-condition</code> action that can be used to conditionally\ndisable downstream jobs during the execution and aims to solve the following\n<a href=\"https://github.com/packit/packit-service/issues/2777\" target=\"_blank\" rel=\"noopener noreferrer\">issue</a>. (<a href=\"https://github.com/packit/packit/pull/2608\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit#2608</code></a>, <a href=\"https://github.com/packit/packit-service/pull/2810\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit-service#2810</code></a>)</p></li><li><p>We got a contribution for a typo in the error message when our Packit CLI\ntracebacks. Thanks a lot for the contribution, @mulkieran. (<a href=\"https://github.com/packit/packit/pull/2612\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit#2612</code></a>)</p></li><li><p>We have fixed a bug in validation of the job trigger. (<a href=\"https://github.com/packit/packit/pull/2616\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit#2616</code></a>)</p></li><li><p>We have added support for handling of minor EPEL releases for Copr builds. (<a href=\"https://github.com/packit/packit/pull/2619\" target=\"_blank\" rel=\"noopener noreferrer\"><code>packit#2619</code></a>)</p></li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-22",
+            "title": "Week 22 in Packit",
+            "summary": "Week 22 (May 26th – June 1st)",
+            "date_modified": "2025-06-02T00:00:00.000Z",
+            "author": {
+                "name": "Matej Focko",
+                "url": "https://github.com/mfocko"
+            },
+            "tags": [
+                "2025-May",
+                "2025",
+                "May"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-21",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-21-may-20th--may-26th\">Week 21 (May 20th – May 26th)<a href=\"#week-21-may-20th--may-26th\" class=\"hash-link\" aria-label=\"Direct link to Week 21 (May 20th – May 26th)\" title=\"Direct link to Week 21 (May 20th – May 26th)\">​</a></h2><ul><li>We have fixed a bug that caused specfile to traceback when section names with conditional macro expansions containing spaces were present in the spec file. (<a href=\"https://github.com/packit/specfile/pull/476\" target=\"_blank\" rel=\"noopener noreferrer\">specfile#476</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-21",
+            "title": "Week 21 in Packit",
+            "summary": "Week 21 (May 20th – May 26th)",
+            "date_modified": "2025-05-26T00:00:00.000Z",
+            "author": {
+                "name": "František Lachman",
+                "url": "https://github.com/lachmanfrantisek"
+            },
+            "tags": [
+                "2025-May",
+                "2025",
+                "May"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-20",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-20-may-13th--may-19th\">Week 20 (May 13th – May 19th)<a href=\"#week-20-may-13th--may-19th\" class=\"hash-link\" aria-label=\"Direct link to Week 20 (May 13th – May 19th)\" title=\"Direct link to Week 20 (May 13th – May 19th)\">​</a></h2><ul><li>We have added a support for passing <code>upstream_package_name</code> to the <code>upstream_tag_template</code> option. (<a href=\"https://github.com/packit/packit/pull/2604\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2604</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-20",
+            "title": "Week 20 in Packit",
+            "summary": "Week 20 (May 13th – May 19th)",
+            "date_modified": "2025-05-19T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2025-May",
+                "2025",
+                "May"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2025/week-19",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-19-may-5th--may-13th\">Week 19 (May 5th – May 13th)<a href=\"#week-19-may-5th--may-13th\" class=\"hash-link\" aria-label=\"Direct link to Week 19 (May 5th – May 13th)\" title=\"Direct link to Week 19 (May 5th – May 13th)\">​</a></h2><ul><li>You can now validate a Packit config passed to the Packit CLI via a path, e.g., <code>packit config validate -c /tmp/my-custom-packit-config.yml</code>. (<a href=\"https://github.com/packit/packit/pull/2556\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2556</a>)</li><li>Packit now runs custom TMT tests as part of CI on dist-git pull requests (<a href=\"https://packit.dev/fedora-ci/jobs#custom-test-plans\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>). (<a href=\"https://github.com/packit/packit-service/pull/2792\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2792</a>)</li><li>We have fixed posting duplicated comments about invalid configurations. (<a href=\"https://github.com/packit/packit-service/pull/2788\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2788</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2025/week-19",
