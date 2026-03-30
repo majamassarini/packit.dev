@@ -5,6 +5,91 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2026/week-12",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-12-march-17th--march-23rd\">Week 12 (March 17th – March 23rd)<a href=\"#week-12-march-17th--march-23rd\" class=\"hash-link\" aria-label=\"Direct link to Week 12 (March 17th – March 23rd)\" title=\"Direct link to Week 12 (March 17th – March 23rd)\">​</a></h2><ul><li>Users now can opt out specific packages from ELN builds and tests in Fedora CI (<a href=\"https://github.com/packit/packit-service/pull/3021\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3021</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-12",
+            "title": "Week 12 in Packit",
+            "summary": "Week 12 (March 17th – March 23rd)",
+            "date_modified": "2026-03-23T00:00:00.000Z",
+            "author": {
+                "name": "Marek Blaha",
+                "url": "https://github.com/m-blaha"
+            },
+            "tags": [
+                "2026-March",
+                "2026",
+                "March"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-11",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-11-march-11th--march-17th\">Week 11 (March 11th – March 17th)<a href=\"#week-11-march-11th--march-17th\" class=\"hash-link\" aria-label=\"Direct link to Week 11 (March 11th – March 17th)\" title=\"Direct link to Week 11 (March 11th – March 17th)\">​</a></h2><ul><li>Packit now supports <code>help</code> command in PR and issue comments.\n(<a href=\"https://github.com/packit/packit-service/pull/2853\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2853</a>)</li><li>Packit now responds to unrecognized commands in PR and issue comments.\n(<a href=\"https://github.com/packit/packit-service/pull/3057\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3057</a>)</li><li>In Fedora CI, it is now possible to retrigger builds and tests in <code>rawhide</code> PRs\nof ELN packages without dedicated <code>eln</code> branch independently.\n(<a href=\"https://github.com/packit/packit-service/pull/3032\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3032</a>)</li><li>We have fixed a couple of bugs that prevented sidetag Bodhi updates to be created\nwhen there was no stable build for the particular (freshly branched) target.\n(<a href=\"https://github.com/packit/packit-service/pull/3059\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3059</a>,\n<a href=\"https://github.com/packit/packit/pull/2704\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2704</a>)</li><li>Users can now specify a version string when retriggering <code>pull-from-upstream</code> via dist-git PR comment.\n(<a href=\"https://github.com/packit/packit-service/pull/3058\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3058</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-11",
+            "title": "Week 11 in Packit",
+            "summary": "Week 11 (March 11th – March 17th)",
+            "date_modified": "2026-03-17T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2026-March",
+                "2026",
+                "March"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-10",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-10-march-3rd--march-11th\">Week 10 (March 3rd – March 11th)<a href=\"#week-10-march-3rd--march-11th\" class=\"hash-link\" aria-label=\"Direct link to Week 10 (March 3rd – March 11th)\" title=\"Direct link to Week 10 (March 3rd – March 11th)\">​</a></h2><ul><li>Packit now retries on build submission failure for Fedora CI Koji scratch builds.\n(<a href=\"https://github.com/packit/packit-service/pull/3040\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3040</a>)</li><li>We have introduced sanitization of spec files to harden our security practices.\nIf this introduced a regression for you, please reach out to us.\n(<a href=\"https://github.com/packit/packit-service/pull/3047\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3047</a>,\n<a href=\"https://github.com/packit/packit/pull/2698\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2698</a>,\n<a href=\"https://github.com/packit/specfile/pull/519\" target=\"_blank\" rel=\"noopener noreferrer\">specfile#519</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-10",
+            "title": "Week 10 in Packit",
+            "summary": "Week 10 (March 3rd – March 11th)",
+            "date_modified": "2026-03-11T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2026-March",
+                "2026",
+                "March"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-9",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-9-february-24th--march-2nd\">Week 9 (February 24th – March 2nd)<a href=\"#week-9-february-24th--march-2nd\" class=\"hash-link\" aria-label=\"Direct link to Week 9 (February 24th – March 2nd)\" title=\"Direct link to Week 9 (February 24th – March 2nd)\">​</a></h2><ul><li>Packit now cancels obsoleted Koji builds before starting new ones. (<a href=\"https://github.com/packit/packit-service/pull/3000\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3000</a>)</li><li>Packit now runs tests also for <code>src.fedoraproject.org/tests/*</code> namespace. (<a href=\"https://github.com/packit/packit-service/pull/3022\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3022</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-9",
+            "title": "Week 9 in Packit",
+            "summary": "Week 9 (February 24th – March 2nd)",
+            "date_modified": "2026-03-02T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2026-February",
+                "2026",
+                "February"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-8",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-8-february-17th--february-23rd\">Week 8 (February 17th – February 23rd)<a href=\"#week-8-february-17th--february-23rd\" class=\"hash-link\" aria-label=\"Direct link to Week 8 (February 17th – February 23rd)\" title=\"Direct link to Week 8 (February 17th – February 23rd)\">​</a></h2><ul><li>We are happy to announce that <a href=\"https://fedoraproject.org/wiki/Changes/PackitDistgitCI\" target=\"_blank\" rel=\"noopener noreferrer\">Packit Fedora CI</a>, for all Fedora packages, has been live for a week now!\nYou can find documentation at <a href=\"https://packit.dev/fedora-ci\" target=\"_blank\" rel=\"noopener noreferrer\">https://packit.dev/fedora-ci</a>.</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-8",
+            "title": "Week 8 in Packit",
+            "summary": "Week 8 (February 17th – February 23rd)",
+            "date_modified": "2026-02-23T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2026-February",
+                "2026",
+                "February"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2026/week-7",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-7-february-10th--february-16th\">Week 7 (February 10th – February 16th)<a href=\"#week-7-february-10th--february-16th\" class=\"hash-link\" aria-label=\"Direct link to Week 7 (February 10th – February 16th)\" title=\"Direct link to Week 7 (February 10th – February 16th)\">​</a></h2><ul><li>We have fixed a race condition that occasionally prevented Copr builds from being reported as completed. (<a href=\"https://github.com/packit/packit-service/pull/2982\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2982</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2026/week-7",
@@ -167,6 +252,23 @@
             "author": {
                 "name": "Nikola Forró",
                 "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2025-November",
+                "2025",
+                "November"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2025/week-46",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-46-november-12th--november-18th\">Week 46 (November 12th – November 18th)<a href=\"#week-46-november-12th--november-18th\" class=\"hash-link\" aria-label=\"Direct link to Week 46 (November 12th – November 18th)\" title=\"Direct link to Week 46 (November 12th – November 18th)\">​</a></h2><ul><li>rpmlint test is now being run by default as part of Packit as Fedora CI. (<a href=\"https://github.com/packit/packit-service/pull/2856\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#2856</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2025/week-46",
+            "title": "Week 46 in Packit",
+            "summary": "Week 46 (November 12th – November 18th)",
+            "date_modified": "2025-11-18T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
             },
             "tags": [
                 "2025-November",
