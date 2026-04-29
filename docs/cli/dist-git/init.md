@@ -74,6 +74,9 @@ Create a Packit's dist-git configuration for release syncing to Fedora.
                                       tags to exclude.
       --version-update-mask TEXT      Python regex used for comparison of the old
                                       and the new version.
+      --version-update-specifiers TEXT
+                                      PEP 440 version specifier set (e.g. '>=1.0,
+                                      <2.0') used to filter the proposed version.
       --issue-repository TEXT         URL of a git repository that can be used for
                                       reporting errors in form of issues.
       --no-pull                       Do not include the pull from upstream job in
