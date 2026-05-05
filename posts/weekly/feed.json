@@ -5,6 +5,91 @@
     "description": "Weekly updates by Packit",
     "items": [
         {
+            "id": "https://packit.dev/posts/weekly/2026/week-17",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-17-april-21st--april-27th\">Week 17 (April 21st – April 27th)<a href=\"#week-17-april-21st--april-27th\" class=\"hash-link\" aria-label=\"Direct link to Week 17 (April 21st – April 27th)\" title=\"Direct link to Week 17 (April 21st – April 27th)\">​</a></h2><ul><li>We have fixed several cases of excessive job cancellation, in particular when retriggering\na job using the Re-run button on GitHub and when using commands such as <code>rebuild-failed</code>,\n<code>retest-failed</code> or <code>test</code> with <code>--identifier</code>.\n(<a href=\"https://github.com/packit/packit-service/pull/3112\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3112</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-17",
+            "title": "Week 17 in Packit",
+            "summary": "Week 17 (April 21st – April 27th)",
+            "date_modified": "2026-04-27T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2026-April",
+                "2026",
+                "April"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-16",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-16-april-14th--april-20th\">Week 16 (April 14th – April 20th)<a href=\"#week-16-april-14th--april-20th\" class=\"hash-link\" aria-label=\"Direct link to Week 16 (April 14th – April 20th)\" title=\"Direct link to Week 16 (April 14th – April 20th)\">​</a></h2><ul><li>We have finalized support for multiple release streams, you can read more about it\nin a <a href=\"/posts/multiple-release-streams\">dedicated blog post</a>.</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-16",
+            "title": "Week 16 in Packit",
+            "summary": "Week 16 (April 14th – April 20th)",
+            "date_modified": "2026-04-20T00:00:00.000Z",
+            "author": {
+                "name": "Nikola Forró",
+                "url": "https://github.com/nforro"
+            },
+            "tags": [
+                "2026-April",
+                "2026",
+                "April"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-15",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-15-april-7th--april-13th\">Week 15 (April 7th – April 13th)<a href=\"#week-15-april-7th--april-13th\" class=\"hash-link\" aria-label=\"Direct link to Week 15 (April 7th – April 13th)\" title=\"Direct link to Week 15 (April 7th – April 13th)\">​</a></h2><ul><li>In addition to <code>version_update_mask</code>, users can now use a new <code>version_update_specifiers</code> configuration option to control the upstream versions allowed to be release-synced. The option accepts <a href=\"https://packaging.pypa.io/en/stable/specifiers.html\" target=\"_blank\" rel=\"noopener noreferrer\">PEP440 version specifier sets</a>, for example <code>version_update_specifiers: &gt;=1.0,~=1.0</code>. (<a href=\"https://github.com/packit/packit/pull/2710\" target=\"_blank\" rel=\"noopener noreferrer\">packit#2710</a>)</li><li>Packit is now able to handle multi-level project namespaces. (<a href=\"https://github.com/packit/packit-service/pull/3092\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3092</a>)</li><li>We have fixed a bug in relation to retriggering of Copr builds sometimes failing due to a failed cancellation of previous builds. (<a href=\"https://github.com/packit/packit-service/pull/3099\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3099</a>)</li><li>We have fixed tag filtering not working when processing multi-release events and when retriggering pull-from-upstream. (<a href=\"https://github.com/packit/packit-service/pull/3098\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3098</a>)</li><li>As part of the process of the integration of Log Detective into Packit, Packit now ignores Log Detective messages in case Log Detective integration is disabled by the user by setting <code>logdetective_enabled</code> to <code>False</code> in the service configuration file. (<a href=\"https://github.com/packit/packit-service/pull/3100\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3100</a>)</li><li>We have fixed a bug that would lead to Testing Farm jobs being cancelled when there were no associated Copr builds. (<a href=\"https://github.com/packit/packit-service/pull/3102\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3102</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-15",
+            "title": "Week 15 in Packit",
+            "summary": "Week 15 (April 7th – April 13th)",
+            "date_modified": "2026-04-13T00:00:00.000Z",
+            "author": {
+                "name": "Alžběta Kučerová",
+                "url": "https://github.com/betulependule"
+            },
+            "tags": [
+                "2026-April",
+                "2026",
+                "April"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-14",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-14-april-1st--april-7th\">Week 14 (April 1st – April 7th)<a href=\"#week-14-april-1st--april-7th\" class=\"hash-link\" aria-label=\"Direct link to Week 14 (April 1st – April 7th)\" title=\"Direct link to Week 14 (April 1st – April 7th)\">​</a></h2><ul><li>Packit now cancels running jobs even after manual retriggering. (<a href=\"https://github.com/packit/packit-service/pull/3076\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3076</a>)</li><li>You can now configure multiple <code>pull-from-upstream</code> jobs with different version/tag filters. In conjunction with the <code>Monitoring all</code> release monitoring option this allows you to consume multiple release streams and freely configure Fedora releases you want to target with each. (<a href=\"https://github.com/packit/packit-service/pull/3083\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3083</a>)</li><li>We have increased the retries for transient errors during Bodhi updates submission. (<a href=\"https://github.com/packit/packit-service/pull/3090\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3090</a>)</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-14",
+            "title": "Week 14 in Packit",
+            "summary": "Week 14 (April 1st – April 7th)",
+            "date_modified": "2026-04-07T00:00:00.000Z",
+            "author": {
+                "name": "Laura Barcziová",
+                "url": "https://github.com/lbarcziova"
+            },
+            "tags": [
+                "2026-April",
+                "2026",
+                "April"
+            ]
+        },
+        {
+            "id": "https://packit.dev/posts/weekly/2026/week-13",
+            "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-13-march-24th--march-30th\">Week 13 (March 24th – March 30th)<a href=\"#week-13-march-24th--march-30th\" class=\"hash-link\" aria-label=\"Direct link to Week 13 (March 24th – March 30th)\" title=\"Direct link to Week 13 (March 24th – March 30th)\">​</a></h2><ul><li>Over the past couple of weeks, we've been working to resolve a potential arbitrary code execution vulnerability related to how Packit processes spec file macros.</li></ul>",
+            "url": "https://packit.dev/posts/weekly/2026/week-13",
+            "title": "Week 13 in Packit",
+            "summary": "Week 13 (March 24th – March 30th)",
+            "date_modified": "2026-03-30T00:00:00.000Z",
+            "author": {
+                "name": "Maja Massarini",
+                "url": "https://github.com/majamassarini"
+            },
+            "tags": [
+                "2026-March",
+                "2026",
+                "March"
+            ]
+        },
+        {
             "id": "https://packit.dev/posts/weekly/2026/week-12",
             "content_html": "<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"week-12-march-17th--march-23rd\">Week 12 (March 17th – March 23rd)<a href=\"#week-12-march-17th--march-23rd\" class=\"hash-link\" aria-label=\"Direct link to Week 12 (March 17th – March 23rd)\" title=\"Direct link to Week 12 (March 17th – March 23rd)\">​</a></h2><ul><li>Users now can opt out specific packages from ELN builds and tests in Fedora CI (<a href=\"https://github.com/packit/packit-service/pull/3021\" target=\"_blank\" rel=\"noopener noreferrer\">packit-service#3021</a>)</li></ul>",
             "url": "https://packit.dev/posts/weekly/2026/week-12",
