@@ -2,11 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://packit.dev/posts/weekly</id>
     <title>Packit Weekly</title>
-    <updated>2026-05-18T00:00:00.000Z</updated>
+    <updated>2026-08-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://packit.dev/posts/weekly"/>
     <subtitle>Weekly updates by Packit</subtitle>
     <icon>https://packit.dev/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Week 31 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2026/week-31</id>
+        <link href="https://packit.dev/posts/weekly/2026/week-31"/>
+        <updated>2026-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 31 (July 28th – August 3rd)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-31-july-28th--august-3rd">Week 31 (July 28th – August 3rd)<a href="#week-31-july-28th--august-3rd" class="hash-link" aria-label="Direct link to Week 31 (July 28th – August 3rd)" title="Direct link to Week 31 (July 28th – August 3rd)">​</a></h2><ul><li>There is a new configuration option <code>skip_missing_branched_composes</code> that, when enabled, skips test jobs for freshly branched Fedora versions that don't have a corresponding Testing Farm compose yet. (<a href="https://github.com/packit/packit-service/pull/3160" target="_blank" rel="noopener noreferrer">packit-service#3160</a>)</li><li>A fix has been implemented for a bug causing Packit to crash when adding a comment reaction on GitLab. (<a href="https://github.com/packit/ogr/pull/995" target="_blank" rel="noopener noreferrer">ogr#995</a>)</li></ul>]]></content>
+        <author>
+            <name>Alžběta Kučerová</name>
+            <email>akucerov@redhat.com</email>
+            <uri>https://github.com/betulependule</uri>
+        </author>
+        <category label="2026-July" term="2026-July"/>
+        <category label="2026" term="2026"/>
+        <category label="July" term="July"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weeks 29 and 30 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2026/week-29-30</id>
+        <link href="https://packit.dev/posts/weekly/2026/week-29-30"/>
+        <updated>2026-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Weeks 29 and 30 (July 13th – July 27th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="weeks-29-and-30-july-13th--july-27th">Weeks 29 and 30 (July 13th – July 27th)<a href="#weeks-29-and-30-july-13th--july-27th" class="hash-link" aria-label="Direct link to Weeks 29 and 30 (July 13th – July 27th)" title="Direct link to Weeks 29 and 30 (July 13th – July 27th)">​</a></h2><ul><li>The ogr library now correctly handles the Forgejo <code>error</code> commit flag, resolving an issue
+that previously caused it to fail during internal mapping.
+(<a href="https://github.com/packit/ogr/pull/991" target="_blank" rel="noopener noreferrer">ogr#991</a>)</li><li>Log Detective run overview on the dashboard now, for successful runs, shows also a list
+of snippets, grouped by file, in expandable sections.
+(<a href="https://github.com/packit/dashboard/pull/540" target="_blank" rel="noopener noreferrer">dashboard#540</a>)
+<img loading="lazy" alt="Log Detective snippets" src="/assets/images/log-detective-snippets-0c0d628019803b0466d8690bb9806ad7.png" width="839" height="791" class="img_ev3q"></li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2026-July" term="2026-July"/>
+        <category label="2026" term="2026"/>
+        <category label="July" term="July"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 28 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2026/week-28</id>
+        <link href="https://packit.dev/posts/weekly/2026/week-28"/>
+        <updated>2026-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 28 (July 7th – July 13th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-28-july-7th--july-13th">Week 28 (July 7th – July 13th)<a href="#week-28-july-7th--july-13th" class="hash-link" aria-label="Direct link to Week 28 (July 7th – July 13th)" title="Direct link to Week 28 (July 7th – July 13th)">​</a></h2><ul><li>Log Detective results in Packit dashboard now show error messages for failed analyses,
+link to related Koji scratch builds and display suggested solutions when available.
+(<a href="https://github.com/packit/packit-service/pull/3151" target="_blank" rel="noopener noreferrer">packit-service#3151</a>,
+<a href="https://github.com/packit/dashboard/pull/537" target="_blank" rel="noopener noreferrer">dashboard#537</a>,
+<a href="https://github.com/packit/dashboard/pull/538" target="_blank" rel="noopener noreferrer">dashboard#538</a>,
+<a href="https://github.com/packit/dashboard/pull/539" target="_blank" rel="noopener noreferrer">dashboard#539</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2026-July" term="2026-July"/>
+        <category label="2026" term="2026"/>
+        <category label="July" term="July"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 27 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2026/week-27</id>
+        <link href="https://packit.dev/posts/weekly/2026/week-27"/>
+        <updated>2026-07-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 27 (July 1st – July 7th)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-27-july-1st--july-7th">Week 27 (July 1st – July 7th)<a href="#week-27-july-1st--july-7th" class="hash-link" aria-label="Direct link to Week 27 (July 1st – July 7th)" title="Direct link to Week 27 (July 1st – July 7th)">​</a></h2><ul><li>When a package is configured to consume mutiple release streams and release-monitoring.org detects
+multiple releases at the same time, if a pull-from-upstream job run for one released version fails,
+only that one is retried and the rest are unaffected and properly processed. Before this fix
+it could happen that a failed job run for one released version could prevent other released versions
+from being processed at all.
+(<a href="https://github.com/packit/packit-service/pull/3147" target="_blank" rel="noopener noreferrer">packit-service#3147</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2026-July" term="2026-July"/>
+        <category label="2026" term="2026"/>
+        <category label="July" term="July"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Week 22 in Packit]]></title>
+        <id>https://packit.dev/posts/weekly/2026/week-22</id>
+        <link href="https://packit.dev/posts/weekly/2026/week-22"/>
+        <updated>2026-06-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Week 22 (May 28th – June 3rd)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-22-may-28th--june-3rd">Week 22 (May 28th – June 3rd)<a href="#week-22-may-28th--june-3rd" class="hash-link" aria-label="Direct link to Week 22 (May 28th – June 3rd)" title="Direct link to Week 22 (May 28th – June 3rd)">​</a></h2><ul><li>Packit now supports wildcards in Copr allowlists.
+Thanks <a href="https://github.com/evgeni" target="_blank" rel="noopener noreferrer">@evgeni</a>.
+(<a href="https://github.com/packit/packit-service/pull/2907" target="_blank" rel="noopener noreferrer">packit-service#2907</a>)</li></ul>]]></content>
+        <author>
+            <name>Nikola Forró</name>
+            <email>nforro@redhat.com</email>
+            <uri>https://github.com/nforro</uri>
+        </author>
+        <category label="2026-May" term="2026-May"/>
+        <category label="2026" term="2026"/>
+        <category label="May" term="May"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Week 20 in Packit]]></title>
         <id>https://packit.dev/posts/weekly/2026/week-20</id>
