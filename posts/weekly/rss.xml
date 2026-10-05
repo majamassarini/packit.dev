@@ -4,10 +4,89 @@
         <title>Packit Weekly</title>
         <link>https://packit.dev/posts/weekly</link>
         <description>Weekly updates by Packit</description>
-        <lastBuildDate>Mon, 03 Aug 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Week 39 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-39</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-39</guid>
+            <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 39 (September 23rd – September 29th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-39-september-23rd--september-29th">Week 39 (September 23rd – September 29th)<a href="#week-39-september-23rd--september-29th" class="hash-link" aria-label="Direct link to Week 39 (September 23rd – September 29th)" title="Direct link to Week 39 (September 23rd – September 29th)">​</a></h2><ul><li>There is a new <code>skip_install</code> option for test jobs to omit automatic installation
+of Copr packages on a Testing Farm runner.
+(<a href="https://github.com/packit/packit-service/pull/3190" target="_blank" rel="noopener noreferrer">packit-service#3190</a>)</li><li>Fixed overwriting of Log Detective analysis for noarch packages built on different arches.
+(<a href="https://github.com/packit/packit-service/pull/3196" target="_blank" rel="noopener noreferrer">packit-service#3196</a>)</li></ul>]]></content:encoded>
+            <author>nforro@redhat.com (Nikola Forró)</author>
+            <category>2026-September</category>
+            <category>2026</category>
+            <category>September</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 38 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-38</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-38</guid>
+            <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 38 (September 15th – September 21st)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-38-september-15th--september-21st">Week 38 (September 15th – September 21st)<a href="#week-38-september-15th--september-21st" class="hash-link" aria-label="Direct link to Week 38 (September 15th – September 21st)" title="Direct link to Week 38 (September 15th – September 21st)">​</a></h2><ul><li>New <code>skip_install</code> option for test jobs to omit automatic installation of
+Copr packages on Testing Farm runner. (<a href="https://github.com/packit/packit/pull/2776" target="_blank" rel="noopener noreferrer">packit#2776</a>)</li><li>There are also improvements to <code>/packit help</code> from an external contributor
+<a href="https://github.com/burakeyler" target="_blank" rel="noopener noreferrer">@burakeyler</a>. (<a href="https://github.com/packit/packit-service/pull/3186" target="_blank" rel="noopener noreferrer">packit-service#3186</a>)</li><li><code>Status.get_downstream_prs()</code> now uses <code>itertools.islice()</code> to consume only
+the required number of PRs from the <code>Iterable</code> returned
+by <code>ForgejoProject.get_pr_list()</code>, avoiding loading all PRs into memory. (<a href="https://github.com/packit/packit/pull/2771" target="_blank" rel="noopener noreferrer">packit#2771</a>)</li></ul>]]></content:encoded>
+            <author>mfocko@redhat.com (Matej Focko)</author>
+            <category>2026-September</category>
+            <category>2026</category>
+            <category>September</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 36 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-36</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-36</guid>
+            <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 36 (September 2nd – September 8th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-36-september-2nd--september-8th">Week 36 (September 2nd – September 8th)<a href="#week-36-september-2nd--september-8th" class="hash-link" aria-label="Direct link to Week 36 (September 2nd – September 8th)" title="Direct link to Week 36 (September 2nd – September 8th)">​</a></h2><ul><li>A retry mechanism has been added to Packit Service for when it interacts with the Testing Farm API. (<a href="https://github.com/packit/packit-service/pull/3165" target="_blank" rel="noopener noreferrer">packit-service#3165</a>)</li></ul>]]></content:encoded>
+            <author>akucerov@redhat.com (Alžběta Kučerová)</author>
+            <category>2026-September</category>
+            <category>2026</category>
+            <category>September</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 35 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-35</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-35</guid>
+            <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 35 (August 26th – September 1st)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-35-august-26th--september-1st">Week 35 (August 26th – September 1st)<a href="#week-35-august-26th--september-1st" class="hash-link" aria-label="Direct link to Week 35 (August 26th – September 1st)" title="Direct link to Week 35 (August 26th – September 1st)">​</a></h2><ul><li>Packit Service now respects job identifiers when multiple base builds exist for the same branch with different configurations, ensuring OpenScanHub scans compare against the correct matching base build. (<a href="https://github.com/packit/packit-service/pull/3172" target="_blank" rel="noopener noreferrer">packit-service#3172</a>)</li></ul>]]></content:encoded>
+            <author>mmassari@redhat.com (Maja Massarini)</author>
+            <category>2026-August</category>
+            <category>2026</category>
+            <category>August</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 34 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-34</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-34</guid>
+            <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 34 (August 18th – August 24th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-34-august-18th--august-24th">Week 34 (August 18th – August 24th)<a href="#week-34-august-18th--august-24th" class="hash-link" aria-label="Direct link to Week 34 (August 18th – August 24th)" title="Direct link to Week 34 (August 18th – August 24th)">​</a></h2><ul><li>There were no user-facing changes in packit(-service) this week.</li></ul>]]></content:encoded>
+            <author>nforro@redhat.com (Nikola Forró)</author>
+            <category>2026-August</category>
+            <category>2026</category>
+            <category>August</category>
+        </item>
+        <item>
+            <title><![CDATA[Week 33 in Packit]]></title>
+            <link>https://packit.dev/posts/weekly/2026/week-33</link>
+            <guid>https://packit.dev/posts/weekly/2026/week-33</guid>
+            <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Week 33 (August 11th – August 17th)]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="week-33-august-11th--august-17th">Week 33 (August 11th – August 17th)<a href="#week-33-august-11th--august-17th" class="hash-link" aria-label="Direct link to Week 33 (August 11th – August 17th)" title="Direct link to Week 33 (August 11th – August 17th)">​</a></h2><ul><li>The <code>ForgejoService.get_project_from_url()</code> method has been updated to ensure repository names are parsed accurately. It now correctly removes the <code>.git</code> extension from the repository name, addressing an issue where the extension was previously retained. (<a href="https://github.com/packit/ogr/pull/1005" target="_blank" rel="noopener noreferrer">ogr#1005</a>)</li></ul>]]></content:encoded>
+            <author>mfocko@redhat.com (Matej Focko)</author>
+            <category>2026-August</category>
+            <category>2026</category>
+            <category>August</category>
+        </item>
         <item>
             <title><![CDATA[Week 31 in Packit]]></title>
             <link>https://packit.dev/posts/weekly/2026/week-31</link>
